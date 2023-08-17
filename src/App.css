@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700&family=Montserrat:wght@300&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,700;1,400;1,800&family=Rubik:wght@400;500&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: .7rem;
+    color: black;
+}
+.nav li a:hover{
+    color: #d32f2f;
+}
+.login-btn{
+    background-color: #d32f2f;
+    border: 1px solid#d32f2f;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: .2rem;
+    font-size: .7rem;
+    -webkit-box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+.login-btn:hover{
+    color: #d32f2f;
+    border:1px solid #d32f2f;
+    background-color: #fff;
+}
+.intro-btn{
+    padding: .8rem 1.3rem;
+    border-radius: .2rem;
+    font-size: .7rem;
+    font-weight: 500;
+    -webkit-box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+.para{
+    color: hsl(229, 8%, 60%);
+}
+#chrome-btn{
+    background-color:  hsl(231, 69%, 60%);
+    color: #fff;
+    margin-right: 1rem;
+    border: 1px solid hsl(231, 69%, 60%);
+}
+#chrome-btn:hover,.install-btn:hover{
+    background-color: #fff;
+    color:  hsl(231, 69%, 60%);
+    border: 1px solid  hsl(231, 69%, 60%);
+}
+#firefox-btn{
+    background-color: hsla(0, 0%, 97%, 0.838);
+    color: rgba(45, 44, 44, 0.825);
+    border: 1px solid hsla(0, 0%, 97%, 0.838);
+
+}
+#firefox-btn:hover{
+    background-color: #fff;
+    border: 1px solid   rgb(45, 44, 44);
+}
+
+/* Browser Section */
+.install-btn{
+    background-color:  hsl(231, 69%, 60%);
+    font-size: .8rem;
+    color: #fff;
+    border: 1px solid  hsl(231, 69%, 60%);
+cursor: pointer;
+}
+.ct{
+    padding: .9rem 1.7rem;
+}
+
+@media screen and (max-width: 600px){
+    .intro-btn{
+        padding: .8rem .7rem;
+        border-radius: .2rem;
+        font-size: 1rem;
+        font-weight: 500;
+        -webkit-box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+    box-shadow: 8px 8px 16px -11px rgba(0,0,0,0.75);
+    cursor: pointer;
+    }
+    .para{
+        font-size: smaller;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav li a{
+        font-size: 1rem;
+    }
+}
