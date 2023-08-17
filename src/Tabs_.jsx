@@ -6,9 +6,9 @@ import { TabPanel } from "@mui/base/TabPanel";
 import { buttonClasses } from "@mui/base/Button";
 import { Tab, tabClasses } from "@mui/base/Tab";
 import Page from "./Page";
-import bg1 from "../../images/illustration-features-tab-1.svg";
-import bg2 from "../../images/illustration-features-tab-2.svg";
-import bg3 from "../../images/illustration-features-tab-3.svg";
+import bg1 from "../images/illustration-features-tab-1.svg";
+import bg2 from "../images/illustration-features-tab-2.svg";
+import bg3 from "../images/illustration-features-tab-3.svg";
 import useMediaQuery from "@mui/material/useMediaQuery";
 export default function Tabs_() {
   const featureData = [

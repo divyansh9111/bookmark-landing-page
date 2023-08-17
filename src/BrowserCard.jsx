@@ -1,7 +1,7 @@
 import { Button } from "@mui/base/Button";
 import Box from "@mui/material/Box";
 import React from "react";
-import bg from "../../images/bg-dots.svg";
+import bg from "../images/bg-dots.svg";
 import useMediaQuery from '@mui/material/useMediaQuery';
 const BrowserCard = (props) => {
   const matches = useMediaQuery('(max-width:600px)');
